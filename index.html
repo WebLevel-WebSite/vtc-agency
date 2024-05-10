@@ -1,0 +1,994 @@
+{% extends 'base.html' %}
+
+{% block title %}WebLevel Agence - Agence Web et Référencement SEO{% endblock %}
+
+
+{% block content %}
+        
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDGT7WQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+       <!-- <section class="gap-x-6 bg-gray-800/80 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+    <p class="text-sm leading-6 text-gray-900 text-center">
+        <a href="/contact">
+            <span class="font-semibold text-white">Support</span><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current text-white" aria-hidden="true"> <circle cx="1" cy="1" r="1" /></svg><strong class="font-normal text-white">Un expert web et SEO vous rappelle en moins d'1h</strong><span  aria-hidden="true" class="ml-1  text-white"> &rarr;</span>
+        </a>
+    </p>
+
+</section>        
+        <header class="header bg-black z-10 navbar shadow-sm">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-7" aria-label="Global">
+                <div class="flex items-center gap-x-12">
+                    <a href="/" class="-m-1.5 p-1.5">
+                        <span class="sr-only">WebLevel</span>
+                        <img class="h-8 w-auto" src="/media/logo/logo_WebLevel.png" alt="WebLevel agency logo">
+                    </a>
+                    <div class="hidden lg:flex lg:gap-x-12">
+                        <a href="/Création de Site Webn de Site Webn de Site Web" class=" font-semibold text-sm leading-6 text-white hover:text-WebLevel-hoverCréation de Site Webtion dCréation de Site Web-200 hover:text-[#275a8a] transition-all duration-200">Création de Site Web</a>
+                        <a href="/expertises" class=" font-semibold  text-sm leading-6 text-white hover:text-[#275a8a] transition-all duration-200">Expertises</a>
+                        <a href="/creation-site-web" class=" font-semibold  text-sm leading-6 text-white hover:text-[#275a8a] transition-all duration-200">Projets</a>
+                        <a href="/projets" class=" font-semibold text-sm leading-6 text-white hover:text-[#275a8a] transition-all duration-200">Projets</a>
+                        <a href="/blog" class=" font-semibold  text-sm leading-6 text-white hover:text-[#275a8a] transition-all duration-200">Blog</a>
+                    </div>
+                </div>
+                <div class="hidden lg:flex space-x-4 items-center">
+                                            <a href="tel:0649221447" class="bg-[#275a8a] text-sm font-semibold leading-6 text-white bg-light-gray inline-flex  py-3 px-4 rounded-full items-center justify-center">
+                            <svg viewBox="0 0 32 32" fill="currentColor" class="w-5 h-5 mt-1 mr-2">
+                                <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                            </svg>
+                            06 49 22 14 47
+                        </a>
+                                        <div class="inline-flex bg-[#275a8a] rounded-full">
+                        <a href="/contact" class="flex items-center text-sm bg-blue hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold leading-6 text-white">
+                            Demander un devis
+                            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu, show/hide based on menu open state. 
+                <div x-data="{ isOpen: false }" class="lg:hidden">
+                    <div class="inline-flex gap-x-3">
+                        <a href="tel:0649221447" class="text-sm font-semibold leading-6 text-gray-900 bg-WebLevel-light-gray hover:bg-gray-200 transition duration-200 inline-flex border border-gray-200 py-1.5 px-4 rounded-full items-center justify-center">
+                            <svg viewBox="0 0 32 32" fill="currentColor" class="w-5 h-5 mt-1 mr-2">
+                                <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                            </svg>
+                            06 49 22 14 47
+                        </a>
+                        <button @click="isOpen = true" type="button"  class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Ouvrir le menu</span>
+                            <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div x-show="isOpen" role="dialog" aria-modal="true">
+                        <div class="fixed inset-0 z-10"></div>
+                        <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="-m-1.5 p-1.5">
+                                <span class="sr-only">WebLevel</span>
+                                <img class="h-8 w-auto" src="/media/logo/logo_WebLevel.png" alt="WebLevel agency logo mobile">
+                            </a>
+
+                                                                                    
+                            <button @click="isOpen = false" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                                <span class="sr-only">Fermer le menu</span>
+                                <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="mt-6 flow-root">
+                            <div class="-my-6 divide-y divide-gray-500/10">
+                                <div class="space-y-2 py-6">
+                                    <a href="/Création de Site Webn de Site Webn de Site Web" class=" font-semibold -mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-100Création de Site Webtion dCréation de Site Web-200">Création de Site Web</a>
+                                    <a href="/creation-site-web" class=" font-semibold -mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-100 transition duration-200">Projets</a>
+                                    <a href="/expertises" class=" font-semibold  -mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-100 transition duration-200">Expertises</a>
+                                    <a href="/projets" class="s=" font-semibold -mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-100 transition duration-200">Projets</a>
+                                    <a href="/blog" class=" font-semibold -mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-white hover:bg-gray-100 transition duration-200">Blog</a>
+                                </div>
+                                <div class="space-y-3 py-6">
+                                    <a href="/contact" class="inline-flex w-full items-center justify-center rounded-full text-center px-3 py-2.5 text-base font-semibold leading-7 text-white bg-WebLevel transition duration-200 hover:bg-WebLevel-hover">Demander un devis
+                                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
+                                        </svg>
+                                    </a>
+                                    <a href="tel:0649221447" class="inline-flex border border-gray-200 w-full items-center justify-center rounded-full px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 bg-[#e9e3f6] transition duration-200 hover:bg-gray-200">
+                                            <svg viewBox="0 0 32 32" fill="currentColor" class="w-5 h-5 mr-2 mt-1">
+                                                <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                                            </svg>
+                                            06 49 22 14 47
+                                    </a>
+                                  </div>
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>-->
+    
+            <main>
+        <section class="bg-gradient-to-r from-[#090979] to-[#77b5fe] hero relative">
+            <img src="media/site/hero-bg.png" alt="" class="absolute h-full object-cover  ">
+            <div class="relative overflow-hidden">
+                <div class="mx-auto max-w-7xl px-6 py-20 sm:py-16 md:py-32 lg:px-8">
+                    <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+                        <h1 class="max-w-2xl text-4xl font-bold tracking-normal text-white sm:text-5xl lg:col-span-2 xl:col-auto lg:item-center">Création de sites web </br>optimisés pour le référencement</h1>
+                        <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+                            <p class="text-lg leading-8 text-white">Que ce soit un site vitrine, un e-commerce ou une application web, je transforme vos idées en un site internet responsive et bien référencé sur les moteurs de recherche.</p>
+                            <div class="mt-10 flex items-center">
+                                <p class="text-white font-semibold text-2xl mr-1">5/5</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-yellow-300">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-yellow-300">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-yellow-300">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-yellow-300">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-yellow-300">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                </svg>
+                                <p class="text-white font-semibold ml-1 leadding-8">basé sur +4<a href="https://www.google.com/maps/place/WebLevel+Design/@45.9261963,6.8720277,14.76z/data=!4m6!3m5!1s0xa868a79c3858722b:0x7d9416310a06b0b0!8m2!3d45.9343035!4d6.8754191!16s%2Fg%2F11y40v89ls?entry=ttu" target="_blank" class="underline underline-offset-4 transition duration-200 hover:text-WebLevel-text-gray"> avis</a></p>
+                            </div>
+                            <div class="inline-flex mt-10 items-center gap-x-6 bg-[#275a8a] rounded-2xl px-4">
+                                <a href="/creation-site-web" class="text-sm bg-WebLevel hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold leading-6 text-white">Découvrir Projets</a>
+                            </div>
+                        </div>
+                        <img src="/media/site/banner.png" alt="WebLevel realisations" class="mt-10 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="overflow-hidden bg-white py-24 sm:py-32">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                  <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                    <div class="lg:pr-8 lg:pt-4">
+                      <div class="lg:max-w-lg">
+                        <h2 class="text-base font-semibold leading-7 text-indigo-600">Expert en conception de site internet pour VTC</h2>
+                        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">L'offre site internet VTC</p>
+                        <p class="mt-6 text-lg leading-8 text-gray-600">Découvrez notre offre de site internet dédiée aux VTC, conçue sur mesure pour répondre aux besoins spécifiques de votre entreprise de transport privé.</p>
+                        <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                          <div class="relative pl-9">
+                            <dt class="inline font-semibold text-gray-900">
+                                <svg viewBox="0 0 488 512"  class="absolute left-1 top-1 h-5 w-5 text-indigo-600"  fill="currentColor"  aria-hidden="true"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill-rule="evenodd" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/>
+                                </svg>
+                              Référencement Google.
+                            </dt>
+                            <dd class="inline">Pour optimiser le référencement SEO sur Google, il est crucial d'élaborer un contenu pertinent et de qualité, tout en mettant en œuvre des stratégies de mots-clés efficaces.<dd>
+                          </div>
+                          <div class="relative pl-9">
+                            <dt class="inline font-semibold text-gray-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"   class="absolute left-1 top-1 h-5 w-5 text-indigo-600"  fill="currentColor" aria-hidden="true"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0l57.4-43c23.9-59.8 79.7-103.3 146.3-109.8l13.9-10.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176V384c0 35.3 28.7 64 64 64H360.2C335.1 417.6 320 378.5 320 336c0-5.6 .3-11.1 .8-16.6l-26.4 19.8zM640 336a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 353.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z"/></svg>
+                              Module de réservation.
+                            </dt>
+                            <dd class="inline">Utilisez un module de réservation VTC pour réserver votre trajet en toute simplicité ou demandez un devis personnalisé selon vos besoins.</dd>
+                          </div>
+                          <div class="relative pl-9">
+                            <dt class="inline font-semibold text-gray-900">
+                              <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                                <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                              </svg>
+                              Hébergement et maintenance inclus.
+                            </dt>
+                            <dd class="inline">L'hébergement et la maintenance sont inclus dans le pack site vitrine VTC.</dd>
+                          </div>
+                        </dl>
+                      </div>
+                    </div>
+                    <img src="media/site/reservation.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--<section>
+            <div class="bg-[#f6f8fa]">
+                <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+                  <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0  bg-gradient-to-r from-[#090979] to-[#77b5fe]">
+                    <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
+                      <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+                      <defs>
+                        <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                          <stop stop-color="#090979" />
+                          <stop offset="1" stop-color="#77b5fe" />
+                        </radialGradient>
+                      </defs>
+                    </svg>
+                    <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                      <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Design UI/UX,<br> votre site web.</h2>
+                      <p class="mt-6 text-lg leading-8 text-gray-300">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.</p>
+                      <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                        <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Contactez-moi</a>
+                        <a href="#" class="text-sm font-semibold leading-6 text-white">Apprendre d'avantages <span aria-hidden="true">→</span></a>
+                      </div>
+                    </div>
+                    <div class="relative mt-16 h-80 lg:mt-8">
+                      <img class="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="/media/site/1design.png">
+                  </div>
+                </div>
+              </div>
+              
+        </section>-->
+      <!-- <section>
+            <div class="bg-white py-24 sm:py-32">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                  <div class="mx-auto max-w-2xl sm:text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple no-tricks pricing</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.</p>
+                  </div>
+                  <div class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+                    <div class="p-8 sm:p-10 lg:flex-auto">
+                      <h3 class="text-2xl font-bold tracking-tight text-gray-900">Lifetime membership</h3>
+                      <p class="mt-6 text-base leading-7 text-gray-600">Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
+                      <div class="mt-10 flex items-center gap-x-4">
+                        <h4 class="flex-none text-sm font-semibold leading-6 text-indigo-600">What’s included</h4>
+                        <div class="h-px flex-auto bg-gray-100"></div>
+                      </div>
+                      <ul role="list" class="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Private forum access
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Member resources
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Entry to annual conference
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Official member t-shirt
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                      <div class="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+                        <div class="mx-auto max-w-xs px-8">
+                          <p class="text-base font-semibold text-gray-600">Pay once, own it forever</p>
+                          <p class="mt-6 flex items-baseline justify-center gap-x-2">
+                            <span class="text-5xl font-bold tracking-tight text-gray-900">$349</span>
+                            <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">USD</span>
+                          </p>
+                          <a href="#" class="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get access</a>
+                          <p class="mt-6 text-xs leading-5 text-gray-600">Invoices and receipts available for easy company reimbursement</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white py-24 sm:py-32">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                  <div class="mx-auto max-w-2xl sm:text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple no-tricks pricing</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.</p>
+                  </div>
+                  <div class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+                    <div class="p-8 sm:p-10 lg:flex-auto">
+                      <h3 class="text-2xl font-bold tracking-tight text-gray-900">Lifetime membership</h3>
+                      <p class="mt-6 text-base leading-7 text-gray-600">Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
+                      <div class="mt-10 flex items-center gap-x-4">
+                        <h4 class="flex-none text-sm font-semibold leading-6 text-indigo-600">What’s included</h4>
+                        <div class="h-px flex-auto bg-gray-100"></div>
+                      </div>
+                      <ul role="list" class="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Private forum access
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Member resources
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Entry to annual conference
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Official member t-shirt
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                      <div class="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+                        <div class="mx-auto max-w-xs px-8">
+                          <p class="text-base font-semibold text-gray-600">Pay once, own it forever</p>
+                          <p class="mt-6 flex items-baseline justify-center gap-x-2">
+                            <span class="text-5xl font-bold tracking-tight text-gray-900">$349</span>
+                            <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">USD</span>
+                          </p>
+                          <a href="#" class="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get access</a>
+                          <p class="mt-6 text-xs leading-5 text-gray-600">Invoices and receipts available for easy company reimbursement</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white py-24 sm:py-32">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                  <div class="mx-auto max-w-2xl sm:text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple no-tricks pricing</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.</p>
+                  </div>
+                  <div class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+                    <div class="p-8 sm:p-10 lg:flex-auto">
+                      <h3 class="text-2xl font-bold tracking-tight text-gray-900">Lifetime membership</h3>
+                      <p class="mt-6 text-base leading-7 text-gray-600">Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
+                      <div class="mt-10 flex items-center gap-x-4">
+                        <h4 class="flex-none text-sm font-semibold leading-6 text-indigo-600">What’s included</h4>
+                        <div class="h-px flex-auto bg-gray-100"></div>
+                      </div>
+                      <ul role="list" class="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Private forum access
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Member resources
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Entry to annual conference
+                        </li>
+                        <li class="flex gap-x-3">
+                          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                          </svg>
+                          Official member t-shirt
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                      <div class="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+                        <div class="mx-auto max-w-xs px-8">
+                          <p class="text-base font-semibold text-gray-600">Pay once, own it forever</p>
+                          <p class="mt-6 flex items-baseline justify-center gap-x-2">
+                            <span class="text-5xl font-bold tracking-tight text-gray-900">$349</span>
+                            <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">USD</span>
+                          </p>
+                          <a href="#" class="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get access</a>
+                          <p class="mt-6 text-xs leading-5 text-gray-600">Invoices and receipts available for easy company reimbursement</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>-->
+        <!--<section class="overflow-hidden py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                    <div class="flex items-center justify-center lg:justify-start lg:pl-4 lg:ml-auto">
+                        <div class="lg:max-w-lg">
+                            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Votre site personalisé et référencé à partir de <span class="text-WebLevel">2 290€</span><span class="text-xl">/TTC</span></h2>
+                            <p class="mt-6 text-lg leading-8 text-gray-600"> Indépendants, startups, PME ou grands groupes, nous créons votre <strong>site vitrine, e-commerce ou application web</strong> adapté à votre activité.</p>
+                            <p class="mt-3 text-lg leading-8 text-gray-600"><span class="font-semibold">Gagnez en visibilité et en performances</span> grâce à une stratégie de <strong class="font-normal">référencement SEO</strong> sur les moteurs de recherche.</p>
+                            <div class="mt-6 inline-flex items-center gap-x-6 bg-[#275a8a] rounded-2xl px-4">
+                                <a href="/contact" class="text-sm bg-WebLevel hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold leading-6 text-white">Contactez-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-start justify-end lg:order-first">
+                        <img src="/media/site/michael_gramm.webp" alt="Maquette site web Atal Prestige VTC" class="w-[48rem] object-cover aspect-[6/5] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432" height="1442">
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!--<section class="py-24 sm:py-32 bg-[#f6f8fa]">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                        <div class="order-first flex justify-center items-center mb-3">
+                            <svg width="100" viewBox="0 0 673 475" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M244.498 333.676C226.627 349.97 233.09 408.174 240.536 426.04L271.437 442.148C289.521 385.335 266.836 313.309 244.498 333.676Z" fill="#E9E3F6"/>
+                                <path d="M615.008 366.148C596.741 366.148 569.835 370.366 560.211 378.801L560.207 411.073L449.555 440.143C377.45 457.257 593.568 461.346 653.835 416.421C702.048 380.482 648.039 367.931 615.008 366.148Z" fill="#E9E3F6"/>
+                                <path d="M322.631 472.149V257.152" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M248.622 208.137L260.901 205.106C262.477 204.717 264 205.909 264 207.533V251.302C264 252.837 262.629 254.01 261.112 253.771L248.833 251.842C247.617 251.651 246.721 250.604 246.721 249.373V210.564C246.721 209.414 247.505 208.413 248.622 208.137Z" stroke="#6F66D9" stroke-width="5"/>
+                                <path d="M338.95 262.124L242.578 92.8271C241.53 90.9841 242.671 88.6651 244.771 88.3721L352.794 73.2881C354.276 73.0811 355.379 71.8136 355.379 70.3171V10.3261C355.379 8.84154 356.465 7.58024 357.933 7.35944L405.585 0.19364C407.399 -0.0791603 409.031 1.32574 409.031 3.16034V62.0365C409.031 63.8141 410.568 65.2018 412.336 65.021L474.815 58.6303C475.929 58.5163 477.014 59.0325 477.628 59.9689L581.857 218.82C583.044 220.63 581.983 223.063 579.848 223.424L342.057 263.598C340.815 263.807 339.574 263.219 338.95 262.124Z" fill="#6F66D9"/>
+                                <path d="M190.588 316.148C172.806 340.609 146.471 364.477 137.041 368.422L133 388.148C180.485 373.354 193.619 342.779 190.588 316.148Z" fill="#5A6068"/>
+                                <path d="M113.895 229.359C122.752 288.831 113.351 356.91 106.549 387.718C106.271 388.974 107.229 390.148 108.515 390.148H133.019C133.908 390.148 134.69 389.565 134.931 388.71C150.577 333.089 132.771 265.894 117.6 228.209C116.718 226.017 113.547 227.022 113.895 229.359Z" fill="#5A6068"/>
+                                <path d="M140.213 321.146C166.238 314.108 179.504 309.492 191.617 294.492" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M15.5128 259.172C-1.81442 288.895 56.4729 354.79 115.879 326.055" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M43.3095 197.239C39.0277 187.331 36.3247 175.805 43.3095 163.8C58.0061 138.541 91.8905 110.681 154.246 129.121C176.358 135.66 191.592 145.224 202 156.559" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M43.3094 163.801C8.08714 168.753 -11.2273 216.76 15.5133 259.172C20.3804 266.891 41.5029 275.27 51.4039 275.27" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M136 270.148C146.153 259.352 156.125 247.982 159 221.148" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M115 289.148C106.852 286.76 86.6444 274.815 71 246.148" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M245.567 91.1479L159.129 219.303C158.044 220.911 158.749 223.112 160.567 223.791L189.308 234.52C190.481 234.958 191.259 236.078 191.259 237.331V400.031C191.259 401.137 191.868 402.154 192.843 402.676L321.602 471.598C322.264 471.952 323.034 472.045 323.762 471.859L556.744 412.204C558.072 411.864 559 410.668 559 409.298V231.213" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <dt class="text-base leading-7 text-gray-600 mt-2 order-last">Paris, Lyon et Genève</dt>
+                        <dd class="order-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl"><h3>3 Création de Site Webn de Site Webn de Site Web</h3></dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                        <div class="order-first flex justify-center items-center mb-3">
+                            <svg width="100" viewBox="0 0 386 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M132.617 282.974C139.73 284.628 159.912 285.753 163.882 273.049" stroke="#BBC1C8" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M143.038 255.184C154.949 266.598 173.807 284.96 183.732 270.072L189.687 260.146" stroke="#BBC1C8" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M143.038 224.414C156.603 237.317 198.223 268.284 216.486 257.168C219.794 255.018 226.511 248.136 226.908 237.813" stroke="#BBC1C8" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M175.792 207.045C192.499 220.114 229.389 243.472 243.284 232.355C257.18 221.239 242.788 205.887 233.855 199.601L173.807 150.967" stroke="#BBC1C8" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M3.08984 159.9C10.5338 163.81 18.7468 173.952 21.4518 183.225C24.9258 195.136 34.6858 205.392 38.8208 208.535" stroke="#BBC1C8" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M151.971 93.4C142.045 89.43 114.254 81.39 92.4178 84.964C70.5828 88.537 72.5678 81.49 62.1458 75.534L3.08984 39.307" stroke="#BBC1C8" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M231.374 90.4221L253.21 79.0081M250.729 218.956C259.86 216.574 275.046 203.076 281.497 196.624L306.807 183.225" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M233.359 143.523C218.801 152.29 182.342 163.076 152.963 140.049" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M152.963 140.05C142.045 155.435 116.438 184.814 101.351 179.256C86.2648 173.698 93.0798 157.42 98.3738 149.976C113.758 119.207 161.896 64.22 231.374 90.423" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M133.609 265.108C133.212 279.798 128.481 286.117 126.165 287.441C114.875 293.892 102.344 283.967 105.841 275.899C108.242 271.431 111.458 262.212 112.766 258.161C115.81 248.732 134.006 250.419 133.609 265.108Z" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M92.4192 279.005C75.7442 282.578 75.5462 265.606 82.9902 257.169C85.3752 254.466 91.3272 248.91 98.8702 242.777C106.414 236.645 111.277 241.876 112.766 245.259C114.732 249.725 109.093 275.432 92.4192 279.005Z" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M64.628 259.154C46.365 258.757 47.259 242.777 54.703 235.829C60.493 229.708 75.248 218.36 87.953 221.933C100.657 225.506 97.878 237.318 94.901 243.273C92.419 248.732 82.891 259.551 64.628 259.154Z" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M70.5818 204.068C51.1288 199.303 34.6848 211.015 28.8958 217.467C24.9248 222.628 25.2558 228.55 25.9178 230.866C30.6818 242.777 52.7168 234.175 63.1378 228.385C73.7248 222.264 90.0358 208.832 70.5818 204.068Z" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M97.3809 25.41C100.358 32.027 105.42 48.338 101.847 60.645" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M115.743 37.818C116.57 41.458 118.225 50.225 118.225 56.18" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M177.777 2.58203L189.192 42.78" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M210.034 20.447L206.561 44.268" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M240.803 37.818L223.434 51.218" stroke="#5A6068" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M336.339 24.463L284.727 63.668C219.219 113.792 283.238 170.035 307.059 182.773L382.989 134.139" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <dt class="text-base leading-7 text-gray-600 mt-2 order-last">réalisés depuis 2019</dt>
+                        <dd class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl order-2"><h3>+200 projets</h3></dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                        <div class="order-first flex justify-center items-center mb-2">
+                            <svg width="100" viewBox="0 0 621 495" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M394.083 202.503C412.591 316.625 356.176 419.541 269.554 433.59C182.932 447.638 96.8818 367.827 78.3735 253.705C59.8651 139.584 116.28 36.6671 202.902 22.6186C289.525 8.57006 375.575 88.3812 394.083 202.503Z" stroke="#BBC1C8" stroke-width="5"/>
+                                <path d="M358.357 206.207C365.445 249.915 358.705 291.519 342.196 323.435C325.688 355.351 299.513 377.43 267.707 382.589C235.901 387.747 204.09 375.072 178.34 350.009C152.591 324.947 133.047 287.605 125.958 243.897C118.87 200.189 125.61 158.584 142.119 126.669C158.627 94.7528 184.802 72.6734 216.608 67.515C248.414 62.3567 280.225 75.032 305.975 100.095C331.724 125.157 351.268 162.499 358.357 206.207Z" stroke="#BBC1C8" stroke-width="5"/>
+                                <path d="M266.333 307.452C299.371 302.093 320.297 261.637 313.073 217.089C305.848 172.542 273.208 140.772 240.169 146.131C207.131 151.489 186.205 191.945 193.429 236.493C200.654 281.041 233.294 312.81 266.333 307.452Z" fill="#E9E3F6"/>
+                                <path d="M113.999 411.388C223.438 516.723 345.189 455.164 371.181 388.816C359.606 454.997 281.184 492.544 215.914 494.15C144.094 494.15 54.4912 434.642 29.8672 380.607C-60.7474 181.761 77.2916 41.8027 146.147 22.1953C16.8718 83.0708 -3.6209 298.178 113.999 411.388Z" fill="#BBC1C8"/>
+                                <path d="M252.165 208.925L447.103 84.2894L486.091 59.8145" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M442.315 74.1786L446.871 42.9378C447.016 41.9441 447.649 41.0887 448.557 40.6591L527.794 3.15732C530.473 1.88934 533.173 4.86106 531.654 7.40636L513.832 37.27C512.702 39.1627 513.931 41.5864 516.125 41.794L553.602 45.3391C556.414 45.6051 557.334 49.2552 554.984 50.8219L487.293 95.9488C486.533 96.4558 485.585 96.5888 484.715 96.3108L447.103 84.2896" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M259.689 223.29L503.714 135.891L547.015 120.268" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M501.186 124.993L512.282 95.4358C512.635 94.4948 513.435 93.7939 514.413 93.5672L599.814 73.775C602.701 73.1059 604.707 76.5837 602.681 78.7477L578.916 104.138C577.41 105.747 578.095 108.377 580.195 109.046L616.06 120.481C618.751 121.339 618.874 125.101 616.244 126.132L540.504 155.831C539.655 156.164 538.7 156.092 537.909 155.636L503.714 135.891" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M450.135 195.194L464.93 170.536C465.444 169.68 466.351 169.135 467.349 169.084L545.081 165.091C548.039 164.939 549.404 168.712 547.033 170.488L522.679 188.735C520.926 190.048 521.126 192.736 523.053 193.776L551.772 209.266C554.244 210.599 553.693 214.293 550.941 214.847L479.764 229.183C478.854 229.366 477.91 229.118 477.208 228.51L450.504 205.39" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M263.794 237.652L450.504 205.389L491.437 198.315" stroke="#6F66D9" stroke-width="5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <dt class="text-base leading-7 text-gray-600 mt-2 order-last">du web et SEO</dt>
+                        <dd class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl order-2"><h3>15 experts</h3></dd>
+                    </div>
+                </dl>
+            </div>
+        </section>-->
+        <!--<section class="relative overflow-hidden py-24 sm:py-32 bg-gradient-to-r from-[#090979] to-[#77b5fe]" >
+          <img src="media/site/hero-bg-top.png" alt="" class="absolute bottom-0 left-0 w-full">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                    <div class="flex items-center justify-center lg:justify-start lg:pr-4 lg:mr-auto">
+                        <div class="lg:max-w-lg">
+                            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gagnez en visibilité et atteignez les premières positions sur Google</h2>
+                            <p class="mt-6 text-lg leading-8 text-gray-600">Le référencement naturel est l’un des meilleurs leviers pour <strong>augmenter le trafic</strong> sur votre site internet et <strong>attirer de nouveaux clients</strong> de manière durable.</p>
+                            <p class="mt-6 text-lg leading-8 text-gray-600">Nos sites internet sont conçus de manière à garantir un <strong>trafic SEO</strong> optimal grâce à l'application d'un enssemble de bonnes pratiques lors du développement.</p>
+                            <div class="mt-6 inline-flex items-center gap-x-6 bg-[#275a8a] rounded-2xl px-4">
+                                <a href="/Création de Site Webn de Site Webn de Site Web" class="text-sm bg-WebLevel hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold Création de Site Web-6 texCréation de Site Web text-white">Nos Création de Site Web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-start justify-end order-first lg:order-last z-2">
+                        <img src="/media/site/Chauffeur VTC.png" alt="Maquette site web giant" class="w-[48rem] object-cover aspect-[6/5] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] z-2" width="2432" height="1442">
+                    </div>
+                </div>
+            </div>
+        </section>-->
+      <section class="relative overflow-hidden py-24 sm:py-32 bg-gradient-to-r from-[#090979] to-[#77b5fe]">
+        <!--<img src="media/site/hero-bg-top.png" alt="" class="absolute bottom-0 left-0 w-full ">-->
+        <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div class="flex items-center justify-center lg:justify-start lg:pr-4 lg:mr-auto">
+                    <div class="lg:max-w-lg">
+                        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Gagnez en visibilité et atteignez les premières positions sur Google</h2>
+                        <p class="mt-6 text-lg leading-8 text-white">Le référencement naturel est l’un des meilleurs leviers pour <strong>augmenter le trafic</strong> sur votre site internet et <strong>attirer de nouveaux clients</strong> de manière durable.</p>
+                        <p class="mt-6 text-lg leading-8 text-white">Nos sites internet sont conçus de manière à garantir un <strong>trafic SEO</strong> optimal grâce à l'application d'un ensemble de bonnes pratiques lors du développement.</p>
+                        <div class="mt-6 inline-flex items-center gap-x-6 bg-[#275a8a] rounded-2xl px-4">
+                            <a href="/Création de Site Webn de Site Webn de Site Web" class="text-sm bg-WebLevel hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold Création de Site Web-6 texCréation de Site Web text-white">Nos Création de Site Web</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-start justify-end order-first lg:order-last z-2">
+                    <img src="/media/site/Chauffeur VTC.png" alt="Maquette site web giant" class="w-[48rem] object-cover aspect-[6/5] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] z-2" width="2432" height="1442">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+       <!-- <section class="bg-WebLevel-light-gray py-24 sm:py-32 bg-[#f6f8fa]">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 max-h-2xl">
+                    <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+                        <img class=" self-start" src="/media/site/3.webp" alt="logo">
+                        <figure class="mt-10 flex flex-auto flex-col justify-between">
+                            <blockquote class="text-lg leading-8 text-gray-900">
+                                <p>“Un grand merci à WebLevel pour la réalisation de notre site web. Une communication parfaite et une équipe toujours à l’écoute, même le weekend. Un partenaire précieux pour nos prochains projets web.”</p>
+                            </blockquote>
+                            <figcaption class="mt-10 flex items-center gap-x-6">
+                                <img class="h-14 w-14 rounded-full bg-gray-50" src="/media/site/photo_avis_WebLevel_1.webp" alt="Laetitia Marchand photo">
+                                <div class="text-base">
+                                    <div class="font-semibold text-gray-900">Laetitia Marchand</div>
+                                    <div class="mt-1 text-gray-500">Resp. Communication de Giant</div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
+                        <img class=" self-start " src="/media/site/2.webp" alt="logo" style="width: 30%;">
+                        <figure class="mt-10 flex flex-auto flex-col justify-between">
+                            <blockquote class="text-lg leading-8 text-gray-900">
+                                <p>“WebLevel nous accompagne depuis plus de 2 ans dans notre développement web : une refonte de notre site internet puis une stratégie SEO qui nous a permis de reprendre des parts de marché.”</p>
+                            </blockquote>
+                            <figcaption class="mt-10 flex items-center gap-x-6">
+                                <img class="h-14 w-14 rounded-full bg-gray-50" src="/media/site/photo_avis_WebLevel_2.webp" alt="Karine Oloste photo">
+                                <div class="text-base">
+                                    <div class="font-semibold text-gray-900">Karine Oloste</div>
+                                    <div class="mt-1 text-gray-500">Dir. Marketing de Faber Place</div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <section class="bg-black">  
+            <div class="text-center py-8 text-white">
+              <h2 class="text-3xl font-bold mb-4">Création Site Internet Rentable... Quelle Que Soit Votre Activité</h2>
+              <p class="text-lg">Votre activité professionnelle est à dimension locale, départementale ou régionale ? </p>
+              <p class="text-lg">Notre agence web de création de sites internet s’occupe de vous placer dans les meilleures places sur les moteurs de recherche (Google, Bing, Qwant).</p>
+              <p class="text-lg">Devenez le professionnel recommandé sur votre zone d’activité et soyez la référence locale.</p>
+              <p class="text-lg">Ainsi, les personnes qui ont besoin de vos services, de vos produits ou de vos compétences vous trouveront directement.</p>
+          </div>
+          <div class="flex justify-center">
+              <div class="w-full lg:w-4/5 px-4 py-8">
+                  <div class="flex flex-col lg:flex-row justify-between">
+                      <!-- Container 1 (VTC) -->
+                      <div class="w-full lg:w-2/3 px-2 mb-8 lg:mb-0 ">
+                          <div class="bg-black rounded-lg shadow-md p-6 text-center relative border-2 border-slate-60">
+                              <h2 class="text-xl font-bold mb-2 text-white">Site internet VTC</h2>
+                              <p class="text-gray-200 mb-4">Module de réservation inclus</p>
+                              <img src="/media/site/vtc.webp" alt="Image 1" class="mx-auto rounded-lg">
+                              <button class="absolute bottom-0 left-0 right-0 mx-auto bg-transparent border border-white text-white py-2 px-4 rounded-lg w-full lg:w-80 h-10 mb-24 border-2 text-base font-bold">Voir l'offre spéciale VTC &#10132;</button>
+                          </div>
+                      </div>
+      
+                      <!-- Containers 2 and 3 (Batiment and Restaurant) -->
+                      <div class="w-full lg:w-1/3 px-2 flex flex-col justify-between">
+                          <!-- Container 2 (Batiment) -->
+                          <div class="mb-8">
+                              <div class="bg-black rounded-lg shadow-md p-6 text-center relative border-2 border-slate-60">
+                                  <h2 class="text-xl font-bold mb-2 text-white">Site Internet Batiment</h2>
+                                  <p class="text-gray-200 mb-4">Module Devis sur mesure inclus</p>
+                                  <img src="/media/site/batiment.png" alt="Image 2" class="mx-auto rounded-lg">
+                                  <button class="absolute bottom-0 left-0 right-0 mx-auto mt-4 bg-transparent border border-white text-white py-2 px-4 rounded-lg w-52 h-10 mb-10 border-2 text-base font-bold">Voir l'offre &#10132;</button>
+                              </div>
+                          </div>
+      
+                          <!-- Container 3 (Restaurant) -->
+                          <div>
+                              <div class="bg-black rounded-lg shadow-md p-6 text-center relative border-2 border-slate-60">
+                                  <h2 class="text-xl font-bold mb-2 text-white">Site Internet Restaurant</h2>
+                                  <p class="text-gray-200 mb-4">Module réservation table inclus</p>
+                                  <img src="media/site/chef.png" alt="Image 3" class="mx-auto rounded-lg">
+                                  <button class="absolute bottom-0 left-0 right-0 mx-auto mt-4 bg-transparent border border-white text-white py-2 px-4 rounded-lg w-52 h-10 mb-10 border-2 text-base font-bold">Voir l'offre &#10132;</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>  
+      </section>
+      
+       <section class="bg-black">
+        <div class="text-center py-8 text-white">
+          <h2 class="text-3xl font-bold mb-4 text-center">Invest In A Future Proof Website That Adapts To Your Business Growth</h2>
+          <p class="text-lg mb-4">We understand the current online world better than anyone else in the Channel Islands. </p>
+          <p></p>
+        </div>
+        <div class=" py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="relative overflow-hidden rounded-lg shadow-lg bg-black">
+                  <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="media/site/fabcab.png" alt="Project 1">
+                  <div class="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white opacity-0 transition-opacity duration-300 hover:opacity-100">
+                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                    <p class="text-sm">Description of Project 1 goes here.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2  text-white font-semibold rounded  transition duration-800 transform hover:translate-x-[50%]  hover:-translate-y-full">GO NOW<?xml version="1.0" ?><svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></a>
+                  </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="relative overflow-hidden rounded-lg shadow-lg bg-black">
+                  <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="media/site/atal.png" alt="Project 2">
+                  <div class="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white opacity-0 transition-opacity duration-300 hover:opacity-100">
+                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                    <p class="text-sm">Description of Project 2 goes here.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300 transform hover:translate-y-6 hover:translate-y-7">GO NOW</a>
+                  </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="relative overflow-hidden rounded-lg shadow-lg bg-black">
+                  <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="media/site/dropout.png" alt="Project 3">
+                  <div class="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white opacity-0 transition-opacity duration-300 hover:opacity-100">
+                    <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+                    <p class="text-sm">Description of Project 3 goes here.</p>
+                    <a href="#" class="inline-block mt-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300 transform hover:translate-x-2 hover:translate-y-2">GO NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <!--<section class="bg-gray-100">
+        <div class="bg-gray-100 py-12">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 class="text-3xl font-bold text-gray-800 mb-6">Les retours de nos clients</h2>
+              <div class="relative overflow-hidden">
+                <div class="flex gap-8 w-full transition-transform duration-300 ease-in-out">
+                  <div class="w-full max-w-lg bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                      <p class="text-gray-700 mb-4 overflow-y-auto max-h-40">"William delivered quality work! He developed a web application for my online luxury clothing retail business, complete with a cart system integrated with Stripe for payment processing. William added and linked over 70 products in various sizes, configured the Stripe account, and provided valuable assistance in navigating its features. He shared his expertise with our team and even reached out to Stripe support to ask additional information regarding payout delays."</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 flex items-center justify-between">
+                      <div>
+                        <p class="text-gray-600 text-sm">Trendz</p>
+                        <p class="text-gray-600 text-sm">2 weeks ago</p>
+                      </div>
+                      <img src="https://via.placeholder.com/40" alt="Profile Photo" class="h-8 w-8 object-cover rounded-full ml-2">
+                    </div>
+                  </div>
+                 
+                  <div class="w-full max-w-lg bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                      <p class="text-gray-700 mb-4 overflow-y-auto max-h-40">"Amazing job! Designed and developed full-stack website very quickly! I am very impressed."</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 flex items-center justify-between">
+                      <div>
+                        <p class="text-gray-600 text-sm">Olivia Norton</p>
+                        <p class="text-gray-600 text-sm">5 days ago</p>
+                      </div>
+                      <img src="https://via.placeholder.com/40" alt="Profile Photo" class="h-8 w-8 object-cover rounded-full ml-2">
+                    </div>
+                  </div>  
+                  <div class="w-full max-w-lg bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                      <p class="text-gray-700 mb-4 overflow-y-auto max-h-40">"Super travail! Merci pour votre aide!"</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 flex items-center justify-between">
+                      <div>
+                        <p class="text-gray-600 text-sm">Daniel Aude</p>
+                        <p class="text-gray-600 text-sm">5 days ago</p>
+                      </div>
+                      <img src="https://via.placeholder.com/40" alt="Profile Photo" class="h-8 w-8 object-cover rounded-full ml-2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>-->
+        <!--<section class="overflow-hidden py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                    <div class="flex items-center justify-center lg:justify-start lg:pl-4 lg:ml-auto">
+                        <div class="lg:max-w-lg">
+                            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Optez pour un site internet avec une identité visuelle unique</h2>
+                            <p class="mt-6 text-lg leading-8 text-gray-600">Nos designers travaillent sur le webdesign de votre site afin qu'il <strong>corresponde parfaitement à vos attentes</strong>. Votre image est maîtrisée de bout en bout grâce à notre agence digitale.</p>
+                            <p class="mt-3 text-lg leading-8 text-gray-600">Nos sites web offrent une expérience optimale grâce à leur <strong>design responsive</strong>, leur <strong>ergonomie soignée</strong> et leurs <strong>pages bien conçues</strong>.</p>
+                            <div class="mt-6 inline-flex items-center gap-x-6 bg-[#275a8a] rounded-2xl px-4">
+                                <a href="/contact" class="text-sm bg-WebLevel hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold leading-6 text-white">Contactez-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-start justify-end order-first">
+                        <img src="/media/site/fiduciaire_genevoise.webp" alt="Maquette site web Atal Prestige VTC" class="w-[48rem] object-cover aspect-[6/5] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432" height="1442">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-WebLevel-light-gray py-24 sm:py-32 bg-[#f6f8fa]">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nos dernières réalisations</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Nous créons des sites internet pour une vaste gamme d’entreprise, dans tous les secteurs d'activités en France et en Suisse.</p>
+                </div>
+                <div class="mx-auto mt-8 max-w-2xl sm:mt-20 lg:mt-16 lg:max-w-3xl">
+                    <ul role="list" class="divide-y divide-gray-100">
+                        <li class="flex items-center justify-between gap-x-6 py-5 bg-white rounded-lg px-2">
+                            <div class="min-w-0">
+                                <div class="flex items-start gap-x-3">
+                                    <p class="font-semibold leading-6 text-[#265a8a]">Atal Prestige VTC</p>
+                                </div>
+                                <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
+                                    <p class="whitespace-nowrap">Création et SEO</p>
+                                    <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    <p class="truncate">Site Vitrine</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-x-4">
+                                <a href="https://atal-prestige-vtc.fr/" target="_blank" class="rounded-full bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 transition duration-200 flex items-center">
+                                    Voir <span class="hidden sm:block">‎ le site</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between gap-x-6 py-5 px-2">
+                            <div class="min-w-0">
+                                <div class="flex items-start gap-x-3">
+                                    <p class="font-semibold leading-6 text-[#265a8a]">Depanneo</p>
+                                </div>
+                                <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
+                                    <p class="whitespace-nowrap">Refonte, design et SEO</p>
+                                    <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    <p class="truncate">Application web</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-x-4">
+                                <a href="https://www.depanneo.com/" target="_blank" class="rounded-full bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 transition duration-200 flex items-center">
+                                    Voir <span class="hidden sm:block">‎ le site</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between gap-x-6 bg-white rounded-lg py-5 px-2">
+                            <div class="min-w-0">
+                                <div class="flex items-start gap-x-3">
+                                    <p class="font-semibold leading-6 text-[#265a8a]">Fiduciaire Genevoise</p>
+                                </div>
+                                <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
+                                    <p class="whitespace-nowrap">Design, développement et SEO </p>
+                                    <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    <p class="truncate">Application web</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-x-4">
+                                <a href="https://fiduciaire-genevoise.ch/" target="_blank" class="rounded-full bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 transition duration-200 flex items-center">
+                                    Voir <span class="hidden sm:block">‎ le site</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between gap-x-6 py-5 px-2">
+                            <div class="min-w-0">
+                                <div class="flex items-start gap-x-3">
+                                    <p class="font-semibold leading-6 text-[#265a8a]">Barthes Coaching</p>
+                                </div>
+                                <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
+                                    <p class="whitespace-nowrap">Design et développement</p>
+                                    <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    <p class="truncate">Site vitrine</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-x-4">
+                                <a href="https://barthes-coaching.com/" target="_blank" class="rounded-full bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 transition duration-200 flex items-center">
+                                    Voir <span class="hidden sm:block">‎ le site</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between gap-x-6 py-5 bg-white rounded-lg px-2">
+                            <div class="min-w-0">
+                                <div class="flex items-start gap-x-3">
+                                    <p class="font-semibold leading-6 text-[#265a8a]">Mario Stantchev</p>
+                                </div>
+                                <div class="mt-1 flex items-center gap-x-2 text-sm leading-5 text-gray-500">
+                                    <p class="whitespace-nowrap">Design, développement</p>
+                                    <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    <p class="truncate">Site vitrine</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-x-4">
+                                <a href="https://mariostantchev.com/" target="_blank" class="rounded-full bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 transition duration-200 flex items-center">
+                                    Voir <span class="hidden sm:block">‎ le site</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="mt-8 lg:mt-16 flex items-center justify-center gap-x-6">
+                        <a href="/projets" class="s="text-sm bg-WebLevel hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold leading-6 text-white">Découvrir nos études de cas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div data-romw-token="3xi6mEUObvamKFHETT6quKrRANcjtCJl1Qsm29LPzl6YE4fhW2"></div>
+<script src="https://reviewsonmywebsite.com/js/v2/embed.js?id=7bf8acda5d5930b1a9db343a4ec1b31c" type="text/javascript"></script>
+        </section>-->
+        <section class="py-24 sm:py-32 bg-black">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Le blog</h2>
+                </div>
+                <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                              <article class="flex flex-col items-start justify-between bg-[#141414] rounded-2xl  ">
+                                <div class="relative w-full">
+                                    <a href="/blog/shopify-comment-et-pourquoi-l-utiliser">
+                                        <img src="/media/blog/575_ID653a1c011513c.jpg" alt="Image du blog" class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+                                    </a>
+                                </div>
+                                <div class="max-w-xl p-5 mt-3 mb-3">
+                                    <div class="flex items-center gap-x-4 text-xs">
+                                        <time datetime="26/10/2023" class="text-gray-100">
+                                                                                            26 oct. 2023
+                                                                                    </time>
+                                        <div class="relative rounded-full bg-WebLevel-light-purple px-3 py-1.5 font-medium text-gray-100">Tech</div>
+                                    </div>
+                                    <div class="group relative">
+                                        <h3 class="mt-3 text-lg font-semibold leading-6 text-white group-hover:text-white">
+                                            <a href="/blog/shopify-comment-et-pourquoi-l-utiliser">
+                                                <span class="absolute inset-0"></span>
+                                                Shopify : comment et pourquoi l&#039;utiliser ?
+                                            </a>
+                                        </h3>
+                                        <p class="mt-5 line-clamp-3 text-sm leading-6 text-white">
+                        Salut à vous, chers explorateurs du web ! Aujourd&#039;hui, je vais vous parler d&#039;une véritable pépite pour la création de site :
+                            Shopify..</p>
+                                    </div>
+                                    <div class="relative mt-8 flex items-center gap-x-4">
+                                      
+                                        <div class="text-sm leading-6">
+                                            <p class="font-semibold text-white">
+                                                <span class="absolute inset-0"></span>
+                                                William Reed
+                                            </p>
+                                            <p class="text-gray-300">Agency Owner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                      <article class="flex flex-col items-start justify-between bg-[#141414] rounded-2xl ">
+                                <div class="relative w-full">
+                                    <a href="/blog/15-termes-a-connaitre-dans-le-developpement-web">
+                                        <img src="/media/blog/575_ID6530f038f1030.jpg" alt="Image du blog" class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+                                    </a>
+                                </div>
+                                <div class="max-w-xl p-5 mt-3 mb-3">
+                                    <div class="flex items-center gap-x-4 text-xs">
+                                        <time datetime="19/10/2023" class="text-gray-100">
+                                                                                            19 oct. 2023
+                                                                                    </time>
+                                        <div class="relative rounded-full bg-WebLevel-light-purple px-3 py-1.5 font-medium text-white">Développement</div>
+                                    </div>
+                                    <div class="group relative">
+                                        <h3 class="mt-3 text-lg font-semibold leading-6 text-white group-hover:text-white">
+                                            <a href="/blog/15-termes-a-connaitre-dans-le-developpement-web">
+                                                <span class="absolute inset-0"></span>
+                                                15 termes à connaître dans le développement web
+                                            </a>
+                                        </h3>
+                                        <p class="mt-5 line-clamp-3 text-sm leading-6 text-white">
+                        Cet article regroupe les définitions des termes les plus courants dans le développement web.
+                            Il est destiné à tous ceux qui s’intéressent à ce domaine et qui voudraient avoir un aperçu..</p>
+                                    </div>
+                                    <div class="relative mt-8 flex items-center gap-x-4">
+                                        <div class="text-sm leading-6">
+                                            <p class="font-semibold text-white">
+                                                <span class="absolute inset-0"></span>
+                                                William Reed
+                                            </p>
+                                            <p class="text-gray-300">Agency Owner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                           <article class="flex flex-col items-start justify-between rounded-2xl  bg-[#141414] ">
+                                <div class="relative w-full">
+                                    <a href="/blog/qu-est-ce-qu-une-agence-web-digitale">
+                                        <img src="/media/blog/575_ID6527a9b7584a4.jpg" alt="Image du blog" class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+                                    </a>
+                                </div>
+                                <div class="max-w-xl p-5 mt-3 mb-3">
+                                    <div class="flex items-center gap-x-4 text-xs">
+                                        <time datetime="12/10/2023" class="text-gray-100">
+                                                                                            12 oct. 2023
+                                                                                    </time>
+                                        <div class="relative rounded-full bg-WebLevel-light-purple px-3 py-1.5 font-medium text-white">Actualité</div>
+                                    </div>
+                                    <div class="group relative">
+                                        <h3 class="mt-3 text-lg font-semibold leading-6 text-white group-hover:text-white">
+                                            <a href="/blog/qu-est-ce-qu-une-agence-web-digitale">
+                                                <span class="absolute inset-0"></span>
+                                                Qu&#039;est-ce qu&#039;une agence web / digitale ?
+                                            </a>
+                                        </h3>
+                                        <p class="mt-5 line-clamp-3 text-sm leading-6 text-white">                    
+                        Vous vous êtes probablement déjà demandé : qu&#039;est-ce qu&#039;une agence web ? On entend souvent parler d&#039;Création de Site Webn de Site Webn de Site Web web et digitales, mais qu&#039;est-ce que cela signifie réellement ? Quels sont leurs ob..</p>
+                                    </div>
+                                    <div class="relative mt-8 flex items-center gap-x-4">
+                                        <div class="text-sm leading-6">
+                                            <p class="font-semibold text-white">
+                                                <span class="absolute inset-0"></span>
+                                                William Reed
+                                            </p>
+                                            <p class="text-gray-300">Agency owner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                                                            </div>
+            </div>
+        </section>
+    </main>
+
+                    <section class="bg-black">
+    <div class="px-6 py-20 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+            <h2 class="font-bold tracking-tight text-white text-3xl md:text-4xl">Vous avez un projet ?</h2>
+            <p class="mx-auto mt-6 max-w-xl text-lg leading-8 font-semibold text-gray-100">Nous concevons des sites internet uniques référencés sur les moteurs de recherche. Un conseiller vous rappelle en moins d'1h.</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="/contact" class="text-sm bg-[#265a8a] hover:bg-WebLevel-hover transition duration-200 py-3 px-4 rounded-full font-semibold leading-6 text-white">Contactez-nous <span class="ml-2 mt-0.5" aria-hidden="true">&rarr;</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+        
+    <script>
+        window.axeptioSettings = {
+            clientId: "64cf6e276b3b964999d70144",
+            cookiesVersion: "WebLevel-fr",
+        };
+
+        (function(d, s) {
+            var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+            e.async = true; e.src = "//static.axept.io/sdk.js";
+            t.parentNode.insertBefore(e, t);
+        })(document, "script");
+    </script>
+
+{% endblock %}
+
